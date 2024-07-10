@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Shared styles */
+.section-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.title-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.7;
+}
+
+.section-sub-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.btn-primary {
+  background-color: white;
+  border: 1px solid rgba(13, 19, 3, 0.616);
+  color: rgba(13, 19, 33, 0.699);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.technologies-title {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+/* header styles */
+.banner {
+  background-image: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-content {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content img {
+  padding: 26px;
+}
+
+.banner-content h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  text-align: center;
+}
+
+.banner-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.banner-content button {
+  background-color: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 21px 24px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 44px;
+  cursor: pointer;
+}
+
+/* Main web-development section styles */
+.web-development-content {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 48px;
+}
+
+.web-development-content h2 {
+  margin-top: 80px;
+  margin-bottom: 24px;
+}
+
+.web-development-content p {
+  margin-bottom: 48px;
+}
+
+.for-box-shadow {
+  width: 70%;
+  margin: 0 auto;
+  padding: 48px;
+  margin-bottom: 32px;
+  border-radius: 15px;
+  box-shadow: -5px 0 5px -5px rgba(0, 0, 0, 0.1),
+    0 -5px 5px -5px rgba(0, 0, 0, 0.1), 0 5px 5px -5px rgba(0, 0, 0, 0.1);
+}
+
+.for-box2-shadow {
+  width: 70%;
+  margin: 0 auto;
+  padding: 48px;
+  margin-bottom: 32px;
+  border-radius: 15px;
+  box-shadow: 5px 0 5px -5px rgba(0, 0, 0, 0.1),
+    0 -5px 5px -5px rgba(0, 0, 0, 0.1), 0 5px 5px -5px rgba(0, 0, 0, 0.1);
+}
+
+.web-development-explain-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.web-development-explain-container p {
+  max-width: 700px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+/* main My Inspiration */
+.inspiration-container {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.inspiration-container p {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.inspiration-container iframe {
+  width: 100%;
+  height: 550px;
+  padding: 32px;
+  border: 1px solid rgba(0, 0, 0, 0.178);
+  border-radius: 10px;
+}
+
+/* Current target section styles */
+
+.current-target-container {
+  margin-bottom: 110px;
+}
+
+.current-target-content {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.current-target-content p {
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.current-target-explain-content {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.current-target-explain-content .html {
+  max-width: 364px;
+  background-color: #fff6f4;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.current-target-explain-content .css {
+  max-width: 364px;
+  background-color: #f2f6fe;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.current-target-explain-content .javascript {
+  max-width: 364px;
+  background-color: #fffdf2;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.html h3,
+.css h3,
+.javascript h3 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.html p,
+.css p,
+.javascript p {
+  margin-bottom: 24px;
+}
+
+.html a,
+.css a,
+.javascript a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* Need support styles */
+.need-support-container {
+  position: relative;
+  background-image: url(../assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 70%;
+  height: 314px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  z-index: 0;
+}
+
+.need-support-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.need-support-content {
+  text-align: center;
+  z-index: 1;
+}
+
+.need-support-content h2 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.need-support-content p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  opacity: 0.7;
+}
+
+.need-support-input {
+  display: flex;
+  gap: 16px;
+  z-index: 1;
+}
+
+.need-support-input input[type="text"] {
+  width: 548px;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(13, 19, 33, 0.4);
+  padding: 18px 19px;
+  border-radius: 10px;
+  border: none;
+}
+
+.need-support-input input[type="submit"] {
+  width: 120px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
